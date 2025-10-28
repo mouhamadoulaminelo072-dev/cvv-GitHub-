@@ -1,0 +1,23 @@
+body{
+    font-family: 'source sans pro' , calibri, tahama, sans-serif;
+    margin-top:auto;
+    background-color: rgb(255, 255, 255);
+}
+.page{
+    width: 500px;
+    margin:auto;
+    border-radius: 80px;
+    padding:20px;
+    border: 8px solid;
+    background-color: rgb(129, 96, 96);
+    
+}
+.samaphoto{
+    text-align: center;
+    object-fit: cover;
+    border-radius: 0%;
+}
+h1{
+    text-align: center;
+}
+
