@@ -12,4 +12,16 @@ function typeWriter() {
 window.onload = () => {
   typeWriter(); 
   
-};
+
+}
+const faders = document.querySelectorAll('.fade-in');
+
+const appearOnScroll = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+});
+
+faders.forEach(fader => appearOnScroll.observe(fader));
