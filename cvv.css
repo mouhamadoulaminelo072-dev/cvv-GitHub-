@@ -34,4 +34,9 @@ h1{
 .download-btn:hover {
   background-color: #005A9E;
 }
+.download-btn {
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+}
 
