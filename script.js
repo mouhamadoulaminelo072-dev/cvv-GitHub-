@@ -25,3 +25,7 @@ const appearOnScroll = new IntersectionObserver((entries) => {
 });
 
 faders.forEach(fader => appearOnScroll.observe(fader));
+document.getElementById("toggle-theme").onclick = () => {
+  document.body.classList.toggle("dark-mode");
+};
+
