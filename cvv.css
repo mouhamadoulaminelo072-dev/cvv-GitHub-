@@ -23,16 +23,16 @@ h1{
 .download-btn {
   display: inline-block;
   padding: 12px 20px;
-  background-color: #0078D4;
+  background-color: chocolate;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   border-radius: 6px;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
 .download-btn:hover {
-  background-color: #005A9E;
+  background-color: aqua;
 }
 .download-btn {
   display: block;
