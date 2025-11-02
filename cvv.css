@@ -44,17 +44,15 @@ h1{
   transform: translateY(0);
 }
 #toggle-theme {
-  position:fixed;
-  top: 20px;
-  left: 20px;
+ 
+  margin: 20px;
   padding: 10px 15px;
-  background-color:chocolate;
+  background-color: #0078D4;
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
-  z-index: 1000;
   transition: background-color 0.3s ease;
 }
 
