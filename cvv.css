@@ -20,4 +20,18 @@ body{
 h1{
     text-align: center;
 }
+.download-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #0078D4;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #005A9E;
+}
 
