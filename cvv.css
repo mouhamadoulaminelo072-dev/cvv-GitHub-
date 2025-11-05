@@ -15,7 +15,7 @@ body{
 .samaphoto{
     text-align: center;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 0%;
 }
 h1{
     text-align: center;
