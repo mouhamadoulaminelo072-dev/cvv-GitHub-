@@ -5,6 +5,7 @@ body{
 }
 .page{
     width: 500px;
+    height: auto;
     margin:auto;
     border-radius: 100px;
     padding:20px;
