@@ -30,7 +30,7 @@ h1{
   font-weight: bold;
   transition: background-color 0.3s ease;
   margin: 30px auto;
-  text-align: center;
+  border-color:black;
 }
 
 .fade-in {
